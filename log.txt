@@ -1,0 +1,14 @@
+------------------------------------
+User >     Hi
+Pikachu >  PikaCHUUUUUUU
+User >     BYE
+------------------------------------
+User >     Hi pikachu
+Pikachu >  Pika
+User >     how's it going?
+Pikachu >  Chu
+User >     is that good?
+Pikachu >  Pi
+User >     ok then
+Pikachu >  Pikachu
+User >     bye
