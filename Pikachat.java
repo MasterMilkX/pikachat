@@ -2,7 +2,7 @@
  *	A pikachu chatbot
  *  Later to be extended to all Pokemon
  *	Program by Milk - idea by Tony
- *	Version 3.0
+ *	Version 4.0
 */ 
 
 import java.util.Scanner;
@@ -49,8 +49,13 @@ public class Pikachat{
 		//while conversation is still going
 		while(!user.toUpperCase().equals("BYE")){
 			//get pikachu's response
-			int randomNum = 1 + (int)(Math.random() * 5); 
-			String pika = Pikachat.chat(randomNum);
+			int randomTimes = 1 + (int)(Math.random() * 4);
+			String pika = "";
+			for(int a = 0; a < randomTimes;a++){
+				int randomNum = 1 + (int)(Math.random() * 5); 
+				pika += Pikachat.chat(randomNum) + " ";
+			}
+			pika = pika.trim();
 			System.out.println("\u001B[33m" + "Pikachu >  " + pika + "\u001B[0m");
 			exportConvo("Pikachu >  " + pika);
 

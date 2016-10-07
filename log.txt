@@ -12,3 +12,35 @@ Pikachu >  Pi
 User >     ok then
 Pikachu >  Pikachu
 User >     bye
+------------------------------------
+User >     Hi Pikachu
+Pikachu >  PikaCHUUUUUUU
+User >     are you ok?
+Pikachu >  Pikachu Pikachu
+User >     that's good
+Pikachu >  Pika
+User >     how's life?
+Pikachu >  Chu Pikachu Pi
+User >     is that so?
+Pikachu >  Chu Chu PikaCHUUUUUUU
+User >     pikachu
+Pikachu >  Chu Pikachu Pika Chu
+User >     pika pika pika
+Pikachu >  Pika Pika Pikachu PikaCHUUUUUUU
+User >     are you offended?
+Pikachu >  Pi Chu Chu Pika
+User >     i'm so sorry pikachu
+Pikachu >  PikaCHUUUUUUU Pi
+User >     please accept my apologies
+Pikachu >  PikaCHUUUUUUU Pi Pikachu PikaCHUUUUUUU
+User >     do you still want to be friends?
+Pikachu >  Pika
+User >     yes?
+Pikachu >  PikaCHUUUUUUU Chu Pikachu Chu
+User >     fine we won't be friends then
+Pikachu >  PikaCHUUUUUUU Chu Chu Pika
+User >     you seem so upset
+Pikachu >  PikaCHUUUUUUU Chu PikaCHUUUUUUU Chu
+User >     ok i'll go then
+Pikachu >  PikaCHUUUUUUU Pi
+User >     bye
