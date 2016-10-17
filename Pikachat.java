@@ -2,7 +2,7 @@
  *	A pikachu chatbot
  *  Later to be extended to all Pokemon
  *	Program by Milk - idea by Tony
- *	Version 4.0
+ *	Version 4.1
 */ 
 
 import java.util.Scanner;
@@ -56,7 +56,8 @@ public class Pikachat{
 				pika += Pikachat.chat(randomNum) + " ";
 			}
 			pika = pika.trim();
-			System.out.println("\u001B[33m" + "Pikachu >  " + pika + "\u001B[0m");
+			String punc = newPunctuation(user);
+			System.out.println("\u001B[33m" + "Pikachu >  " + pika + punc + "\u001B[0m");
 			exportConvo("Pikachu >  " + pika);
 
 			//get user's input
@@ -79,6 +80,19 @@ public class Pikachat{
 			return "Pi";
 		else if(input == 5)
 			return "PikaCHUUUUUUU";
+		else
+			return "...";
+	}
+ 
+	//randomize the punctation ending
+	public static String newPunctuation(String userIn){
+		int a = (int)(Math.random() * 4);
+		if(a == 0)
+			return ".";
+		else if(a == 1)
+			return "?";
+		else if(a == 2)
+			return "!";
 		else
 			return "...";
 	}
